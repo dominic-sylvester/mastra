@@ -1,6 +1,6 @@
 # Styleguide: Deployment guide
 
-A deployment guide walks the reader through deploying their Mastra application to a specific platform. It covers installation, configuration, the deploy process itself, and platform-specific concerns. The reader already has a working Mastra app — this guide gets it running in production. This styleguide covers the page type found in `docs/src/content/en/guides/deployment/`.
+A deployment guide walks the reader through deploying their Mastra application to a specific platform. It covers installation, configuration, the deploy process itself, and platform-specific concerns. The reader already has a working Mastra app — this guide gets it running in production. This styleguide covers the page type found in `docs/src/content/guides/deployment/`.
 
 Also read and follow the general [STYLEGUIDE.md](./STYLEGUIDE.md) for tone, readability, and formatting rules that apply to all documentation.
 
@@ -109,7 +109,7 @@ Explain the limitation and link to alternatives if applicable.
 
 ## Example: Vercel deployment
 
-See [vercel.mdx](../src/content/en/guides/deployment/vercel.mdx) for the gold-standard implementation of this template.
+See [vercel.mdx](../src/content/guides/deployment/vercel.mdx) for the gold-standard implementation of this template.
 
 Key structural elements from that guide:
 

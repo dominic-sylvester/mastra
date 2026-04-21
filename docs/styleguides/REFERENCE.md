@@ -1,6 +1,6 @@
 # Styleguide: Reference page
 
-This styleguide covers pages found in `docs/src/content/en/reference/`. A reference page is the complete API documentation for a class or function. The reader comes here to look up specific details, not to learn concepts — that's the job of the doc pages.
+This styleguide covers pages found in `docs/src/content/reference/`. A reference page is the complete API documentation for a class or function. The reader comes here to look up specific details, not to learn concepts — that's the job of the doc pages.
 
 Also read and follow the general [STYLEGUIDE.md](./STYLEGUIDE.md) for tone, readability, and formatting rules that apply to all documentation.
 
@@ -105,7 +105,7 @@ Advanced usage patterns that go beyond the basic parameters.
 
 ## Example: Workspace class
 
-See [workspace-class.mdx](../src/content/en/reference/workspace/workspace-class.mdx) for the gold-standard class reference.
+See [workspace-class.mdx](../src/content/reference/workspace/workspace-class.mdx) for the gold-standard class reference.
 
 ```md
 # Workspace Class
@@ -145,7 +145,7 @@ See [workspace-class.mdx](../src/content/en/reference/workspace/workspace-class.
 
 ## Example: chatRoute()
 
-See [chat-route.mdx](../src/content/en/reference/ai-sdk/chat-route.mdx) for the gold-standard function reference.
+See [chat-route.mdx](../src/content/reference/ai-sdk/chat-route.mdx) for the gold-standard function reference.
 
 ```md
 # chatRoute() ← parens in H1

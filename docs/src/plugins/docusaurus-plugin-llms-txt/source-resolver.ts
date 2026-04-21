@@ -13,10 +13,10 @@ interface RouteMapping {
 }
 
 const ROUTE_MAPPINGS: RouteMapping[] = [
-  { routePrefix: '/docs', sourceDir: 'src/content/en/docs' },
-  { routePrefix: '/reference', sourceDir: 'src/content/en/reference' },
-  { routePrefix: '/guides', sourceDir: 'src/content/en/guides' },
-  { routePrefix: '/models', sourceDir: 'src/content/en/models' },
+  { routePrefix: '/docs', sourceDir: 'src/content/docs' },
+  { routePrefix: '/reference', sourceDir: 'src/content/reference' },
+  { routePrefix: '/guides', sourceDir: 'src/content/guides' },
+  { routePrefix: '/models', sourceDir: 'src/content/models' },
 ]
 
 /**

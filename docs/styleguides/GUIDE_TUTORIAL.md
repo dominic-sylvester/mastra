@@ -131,7 +131,7 @@ Learn more:
 
 ## Example: Code review bot
 
-See [code-review-bot.mdx](../src/content/en/guides/guide/code-review-bot.mdx) for the gold-standard implementation of this template.
+See [code-review-bot.mdx](../src/content/guides/guide/code-review-bot.mdx) for the gold-standard implementation of this template.
 
 Key structural elements from that guide:
 

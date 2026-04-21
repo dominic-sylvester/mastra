@@ -193,7 +193,7 @@ For a complete implementation, see the [example-name example](https://link-to-ex
 
 ## Example: AI SDK UI integration
 
-See [ai-sdk-ui.mdx](../src/content/en/guides/build-your-ui/ai-sdk-ui.mdx) for the gold-standard implementation of this template.
+See [ai-sdk-ui.mdx](../src/content/guides/build-your-ui/ai-sdk-ui.mdx) for the gold-standard implementation of this template.
 
 Key structural elements from that guide:
 

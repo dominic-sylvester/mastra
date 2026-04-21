@@ -1,6 +1,6 @@
 # Styleguide: Quickstart guide
 
-This styleguide covers the "Quickstart" page type found in `docs/src/content/en/guides/`. A quickstart guide gets the reader from zero to a working result as fast as possible. It focuses on one specific integration or setup scenario (e.g. "Mastra + Next.js") and produces a tangible outcome the reader can see and interact with.
+This styleguide covers the "Quickstart" page type found in `docs/src/content/guides/`. A quickstart guide gets the reader from zero to a working result as fast as possible. It focuses on one specific integration or setup scenario (e.g. "Mastra + Next.js") and produces a tangible outcome the reader can see and interact with.
 
 Also read and follow the general [STYLEGUIDE.md](./STYLEGUIDE.md) for tone, readability, and formatting rules that apply to all documentation.
 
@@ -93,7 +93,7 @@ From here, you can extend the project:
 
 ## Example: Next.js quickstart
 
-See [next-js.mdx](../src/content/en/guides/getting-started/next-js.mdx) for the gold-standard implementation of this template.
+See [next-js.mdx](../src/content/guides/getting-started/next-js.mdx) for the gold-standard implementation of this template.
 
 Key structural elements from that guide:
 

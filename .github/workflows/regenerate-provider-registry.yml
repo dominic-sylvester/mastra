@@ -64,11 +64,11 @@ jobs:
         run: |
           pnpm prettier --write packages/core/src/llm/model/provider-registry.json
           pnpm prettier --write packages/core/src/llm/model/provider-types.generated.d.ts
-          pnpm prettier --write docs/src/content/en/models/**/*.{mdx,ts,js}
+          pnpm prettier --write docs/src/content/models/**/*.{mdx,ts,js}
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code packages/core/src/llm/model/provider-registry.json packages/core/src/llm/model/provider-types.generated.d.ts docs/src/content/en/models/ || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --exit-code packages/core/src/llm/model/provider-registry.json packages/core/src/llm/model/provider-types.generated.d.ts docs/src/content/models/ || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Create changeset
         if: steps.git-check.outputs.changed == 'true'
@@ -107,7 +107,7 @@ jobs:
         run: |
           git add packages/core/src/llm/model/provider-registry.json
           git add packages/core/src/llm/model/provider-types.generated.d.ts
-          git add docs/src/content/en/models/
+          git add docs/src/content/models/
           if [ -n "${CHANGESET_FILE}" ]; then
             git add "${CHANGESET_FILE}"
           fi

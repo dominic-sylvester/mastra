@@ -4,7 +4,7 @@ This guide provides instructions for developers who want to contribute to or wor
 
 ## Prerequisites
 
-- **Node.js** (v22.13.0 or later)
+- **Node.js** (v24 or later)
 - **pnpm** (v10.18.0 or later) - Mastra uses pnpm for package management
 - **Docker** (for local development services) - Only needed for a subset of tests, not required for general development
 
@@ -44,7 +44,7 @@ Error [ERR_WORKER_OUT_OF_MEMORY]: Worker terminated due to reaching memory limit
 you can increase Node’s heap size by prepending your build command with:
 
 ```bash
-NODE_OPTIONS="--max-old-space-size=4096" pnpm build
+NODE_OPTIONS="--max-old-space-size=8192" pnpm build
 ```
 
 - **Build all packages**:

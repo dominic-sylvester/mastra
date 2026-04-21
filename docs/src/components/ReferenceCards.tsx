@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardItems } from './CardItems'
-import sidebars from '@site/src/content/en/reference/sidebars'
+import sidebars from '@site/src/content/reference/sidebars'
 
 /**
  * Convert a doc id to an href, handling index pages

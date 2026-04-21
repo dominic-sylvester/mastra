@@ -58,9 +58,9 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'models',
-        path: 'src/content/en/models',
+        path: 'src/content/models',
         routeBasePath: 'models',
-        sidebarPath: './src/content/en/models/sidebars.js',
+        sidebarPath: './src/content/models/sidebars.js',
         editUrl: 'https://github.com/mastra-ai/mastra/tree/main/docs',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), NPM2YARN_CONFIG]],
       },
@@ -69,9 +69,9 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'guides',
-        path: 'src/content/en/guides',
+        path: 'src/content/guides',
         routeBasePath: 'guides',
-        sidebarPath: './src/content/en/guides/sidebars.js',
+        sidebarPath: './src/content/guides/sidebars.js',
         editUrl: 'https://github.com/mastra-ai/mastra/tree/main/docs',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), NPM2YARN_CONFIG]],
       },
@@ -80,9 +80,20 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'reference',
-        path: 'src/content/en/reference',
+        path: 'src/content/reference',
         routeBasePath: 'reference',
-        sidebarPath: './src/content/en/reference/sidebars.js',
+        sidebarPath: './src/content/reference/sidebars.js',
+        editUrl: 'https://github.com/mastra-ai/mastra/tree/main/docs',
+        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), NPM2YARN_CONFIG]],
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'marketing',
+        path: 'src/content/marketing',
+        routeBasePath: 'marketing',
+        sidebarPath: './src/content/marketing/sidebars.js',
         editUrl: 'https://github.com/mastra-ai/mastra/tree/main/docs',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), NPM2YARN_CONFIG]],
       },
@@ -103,9 +114,9 @@ const config: Config = {
       'classic',
       {
         docs: {
-          path: 'src/content/en/docs',
+          path: 'src/content/docs',
           routeBasePath: 'docs',
-          sidebarPath: './src/content/en/docs/sidebars.js',
+          sidebarPath: './src/content/docs/sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/mastra-ai/mastra/tree/main/docs',

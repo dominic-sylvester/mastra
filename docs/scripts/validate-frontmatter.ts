@@ -15,7 +15,7 @@ interface ValidationConfig {
 }
 
 const DEFAULT_CONFIG: ValidationConfig = {
-  sourceDir: 'src/content/en',
+  sourceDir: 'src/content',
   skipPaths: [
     'guides/',
     'docs/community/',
@@ -23,6 +23,7 @@ const DEFAULT_CONFIG: ValidationConfig = {
     'docs/mastra-platform/',
     'docs/index.mdx',
     'models/',
+    'marketing/',
     'docs/build-with-ai/skills.mdx',
     'docs/studio/cloud.mdx',
   ],

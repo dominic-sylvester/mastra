@@ -28,6 +28,12 @@ const docsTabs = [
     basePath: '/reference',
   },
   {
+    id: 'Marketing',
+    label: 'Marketing',
+    href: '/marketing',
+    basePath: '/marketing',
+  },
+  {
     id: 'Learn',
     label: 'Learn',
     href: '/learn',
